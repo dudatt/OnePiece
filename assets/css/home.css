@@ -1,0 +1,34 @@
+:root {
+    --text: #EDF1F7;
+    --red: #981B23;
+    --blue: #2B4484;
+    --yellow_s: #BD9C59;
+    --yellow_hat: #E3B46E;
+    --green: #46665B;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, button, a {
+    color: var(--text);
+    font: 400 1rem "Bebas Neue", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#background {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100vh;
+}
