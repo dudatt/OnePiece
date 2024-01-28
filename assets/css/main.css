@@ -1,0 +1,42 @@
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1381px;
+}
+
+.main_content {
+    width: 100%;
+    max-width: 570px;
+}
+
+.main_content p {
+    font-size: 18px;
+    margin: 14px 0;
+}
+
+.main_content div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+ .main_content div a {
+    width: 50%;
+    padding: 10px 0;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    transform: skew(-10deg); /*deixa as bordas do botão na diagonal */
+    background-color: transparent;
+    border: 1px solid var(--red);
+    transition: 0.3s;
+}
+
+.main_content div a:hover{
+    background-color: var(--red);
+}
