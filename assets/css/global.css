@@ -1,9 +1,10 @@
 @import url('./background.css');
 @import url('./header.css');
+@import url('./main.css');
 
 :root {
     --text: #EDF1F7;
-    --red: #981B23;
+    --red: red;
     --blue: #2B4484;
     --yellow_s: #BD9C59;
     --yellow_hat: #E3B46E;
@@ -35,4 +36,5 @@ button:hover {
     align-items: center;
     width: 100%;
     height: 100vh;
+    overflow: hidden;
 }
