@@ -1,13 +1,11 @@
 #  <img src="./assets/midia/favicon.ico"> Página - One Piece
 
- Modelo: [vídeo - Leo Vargas](https://www.youtube.com/watch?v=6Ok-kUrBGp8)
+ Modelo: <a href="https://www.youtube.com/watch?v=6Ok-kUrBGp8" target="_blank" >vídeo - Leo Vargas</a>
  
 # ⌨ Tecnologias: 
  - HTML
  - CSS
-
-# 📕 Biblioteca: 
  - [aos](https://github.com/michalsnik/aos)
 
 # ✨ Resultado:
-<img src="./assets/midia/result.png" >
+<img src="./assets/midia/result.png" target="_blank" >
